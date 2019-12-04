@@ -1,0 +1,36 @@
+ul,
+li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+
+#file-label {
+      display: inline-flex;
+      vertical-align: middle;
+      font-size: 12px;
+      line-height: 18px;
+}
+
+#file-label mat-icon {
+      font-size: 18px;
+      text-align: center;
+}
+
+#file-label a {
+      cursor: pointer;
+}
+
+.uploadAttachments{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+:host ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {   
+    stroke: #2ABCE3;
+    stroke-width: 2px;
+}
+
+/* .attachment_spinner{
+    margin:0 10px;
+} */

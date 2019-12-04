@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Attachment-Demo';
+  onFileComplete(data: any) {
+    console.log(data); // We just print out data bubbled up from event emitter.
+  }
 }
